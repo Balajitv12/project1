@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      label{
+        margin-right: 10px;
+      }
+      input{
+        margin-bottom: 10px;
+      }
+      .email-id{
+        margin-left: 20px;
+      }
+      button{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 410px;
+        left: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="connect.php" method="post">
+      <label>Email :</label>
+      <input type="email" name="email" id="email" required class="email-id">
+      <br>
+      <label>password :</label>
+      <input type="password" name="password" id="password" required>
+      <br>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
